@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sushant Basnet - Personal Portfolio</title>
+
+    <meta
+        name="description"
+        content="Personal portfolio of Sushant Basnet, a student and beginner web developer."
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="wrapper">
+
+            <p class="logo">Sushant Basnet</p>
+
+            <p class="tagline">Student | Beginner Web Developer</p>
+
+            <nav aria-label="Primary">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main id="main-content">
+
+        <!-- Introduction Section -->
+        <section id="intro" class="intro">
+            <div class="wrapper">
+
+                <h1>Welcome to My Portfolio</h1>
+
+                <p>
+                    Hello! I am Sushant Basnet, a student interested in
+                    web development and computer technology.
+                </p>
+
+                <p>
+                    <a href="#projects" class="button">View My Projects</a>
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="wrapper">
+
+                <h2>About Me</h2>
+
+                <div class="about-content">
+
+                    <img
+                        src="Image/Profile.jpg"
+                        alt="Profile picture of Sushant Basnet"
+                        class="profile-image"
+                    >
+
+                    <div class="about-text">
+                        <p>
+                            Hello! My name is Sushant Basnet. I am a student
+                            interested in web development and computer technology.
+                            I enjoy learning programming and creating simple
+                            websites and projects.
+                        </p>
+
+                        <p>
+                            My goal is to improve my technical skills and learn
+                            more about software and web development.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-light">
+            <div class="wrapper">
+
+                <h2>My Technical Skills</h2>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <h3>HTML5</h3>
+                        <p>
+                            I can create basic and semantic web pages
+                            using HTML5.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>CSS</h3>
+                        <p>
+                            I have basic knowledge of styling websites
+                            and creating responsive layouts.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Java</h3>
+                        <p>
+                            I have basic knowledge of Java programming
+                            and object-oriented concepts.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Git and GitHub</h3>
+                        <p>
+                            I can upload, manage, and share my projects
+                            using Git and GitHub.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="wrapper">
+
+                <h2>My Projects</h2>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <h3>Simple Calculator</h3>
+
+                        <p>
+                            I created a simple calculator that performs
+                            basic mathematical operations such as addition,
+                            subtraction, multiplication, and division.
+                        </p>
+
+                        <p>
+                            <a
+                                href="https://github.com/sushantbasnet-40/Project_Calculator/blob/main/calculator.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                View Calculator Repository
+                            </a>
+                        </p>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <h3>Personal Portfolio Website</h3>
+
+                        <p>
+                            This is my personal portfolio website. It contains
+                            information about me, my technical skills, my
+                            projects, and a contact form.
+                        </p>
+
+                        <p>
+                            <a
+                                href="https://github.com/sushantbasnet-40/Personal_Website"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                View Portfolio Repository
+                            </a>
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-light">
+            <div class="wrapper">
+
+                <h2>Contact Me</h2>
+
+                <p class="contact-intro">
+                    If you would like to contact me, please complete the
+                    form below.
+                </p>
+
+                <form action="#" method="post">
+
+                    <p>
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            required
+                        ></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Send Message</button>
+                    </p>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="wrapper">
+
+            <p>
+                Thank you for visiting my portfolio.
+            </p>
+
+            <p>
+                &copy; 2026 Sushant Basnet. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
